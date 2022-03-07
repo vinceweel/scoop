@@ -1,0 +1,20 @@
+{
+    "version": "1.0.9",
+    "description": "EasyService is a small tool which can register normal program as a system service.",
+    "homepage": "https://github.com/pandolia/easy-service",
+    "license": "Unknown",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/pandolia/easy-service/archive/master.zip",
+            "hash": "e2998be37276605a9b8cc655e9df5a7290809da032de3af8a8801c73260815b3"
+        }
+    },
+    "extract_dir": "easy-service-master",
+    "bin": "bin/svc.exe",
+    "shortcuts": [
+        [
+            "bin/svc.exe",
+            "svc"
+        ]
+    ]
+}
