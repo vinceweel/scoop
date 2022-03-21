@@ -1,0 +1,14 @@
+{
+    "version": "5.0.2-alpha",
+    "description": "Krita is a sketching and painting program designed for digital artists. ",
+    "homepage": "https://krita.org/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://binary-factory.kde.org/job/Krita_Stable_Windows_Build/lastSuccessfulBuild/artifact/krita-nightly-x64-5.0.2-alpha-2b89188f82.zip",
+            "hash": "fee24ebf588e92e1a3ab7cd8782d0b5a7fc0bb5518d672699d5bc6c106bedf78"
+        }
+    },
+    "extract_dir": "krita-nightly-x64-5.0.2-alpha-2b89188f82",
+    "bin": "bin/krita.exe"
+}
